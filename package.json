@@ -1,0 +1,23 @@
+{
+    "name": "cron-ticker",
+    "version": "1.0.0",
+    "description": "A simple cron job application",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "start": "node app.js"
+    },
+    "keywords": [
+        "cron",
+        "docker",
+        "node"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-cron": "^3.0.3"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
